@@ -12,6 +12,7 @@
 }
 
 .item{
+    color:yellowgreen;
     display: flex;
     flex-direction: column;
     gap:10px;
@@ -20,14 +21,12 @@
     text-align: center;
 }
 
-.desserts,
-.seafood,
-.meats,
-.sides,
-.drinks,
-.breads,
-.soups {
-    color:yellowgreen;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 200px;
 }
 
 
