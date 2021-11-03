@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+    color: blue;
+}
+
+.topic {
+    color:yellowgreen;
+}
+
+.topic.meat,
+.topic.bread {
+    text-align: end;
+}
+
+.topic.seafood,
+.topic.drink {
+    text-align: center;
+}
+
+.topic.dessert,
+.topic.side {
+    text-align: left;
+}
+
+
+
