@@ -1,0 +1,24 @@
+.recipe {
+    display: grid;
+    grid-gap: 150px;
+    grid-template-areas: 
+    "top1 top2"
+    "bottom1 bottom2";
+    grid-template-columns: 1fr 2fr;
+}
+
+.img {
+    grid-area: top1;
+}
+
+.description {
+    grid-area: top2;
+}
+
+.ingredients {
+    grid-area: bottom1;
+}
+
+.steps {
+    grid-area: bottom2;
+}
