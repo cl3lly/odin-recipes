@@ -1,24 +1,42 @@
+* {
+    box-sizing: border-box;
+}
 .recipe {
     display: grid;
-    grid-gap: 150px;
+    grid-gap: 50px;
     grid-template-areas: 
     "top1 top2"
     "bottom1 bottom2";
     grid-template-columns: 1fr 2fr;
 }
 
-.img {
+.photo  > img {
     grid-area: top1;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border: 10px;
+    border-color: aquamarine;
+    border-style: groove;
 }
 
 .description {
     grid-area: top2;
+    border: 10px;
+    border-color: blue;
+    border-style: groove;
 }
 
 .ingredients {
     grid-area: bottom1;
+    border: 10px;
+    border-color: blue;
+    border-style: groove;
 }
 
 .steps {
     grid-area: bottom2;
+    border: 10px;
+    border-color: blue;
+    border-style: groove;
 }
